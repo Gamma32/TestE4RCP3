@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TestE4RCP3
+Bundle-SymbolicName: TestE4RCP3;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: teste4rcp3.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ javax.inject,
+ org.eclipse.e4.core.di,
+ org.eclipse.e4.ui.di,
+ org.eclipse.e4.core.services
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
